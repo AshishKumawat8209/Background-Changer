@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Changer</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #start, #stop{
+            /* width: 70px;
+            cursor: pointer;
+            height: 70px; */
+            width: 120px;         /* Wider for text */
+            height: 45px;        /* Professional button height */
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;  /* Rounded corners */
+            margin: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            transition: all 0.3s ease;  /* Smooth hover effect */
+        }
+        h1{
+            margin-top: 100px;
+        }
+    </style>
+  </head>
+  <body style="color: black">
+    <h1>Start should change the Background color every second</h1>
+    <button id="start"><b>Start</b></button>
+    <button id="stop"><b>Stop</b></button>
+    <script src="script.js"></script>
+  </body>
+</html>
